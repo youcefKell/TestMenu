@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
 
-.Title{
-    font-family: "Pacifico", cursive;
-    color: rgb(130 171 172);
-    text-shadow: 1px 1px 3px black;
-    font-weight: bold;
-    text-align: center;
-}
+
 
 
 body,html{
-   font-family: "Josefin Sans", sans-serif;
+font-family: "Libre Bodoni", serif;
    text-shadow: 0.6px 0.4px 1px rgb(87, 86, 86); 
+}
+
+.BP{
+  text-shadow: 1px 1px 2px   oklch(25.197% 0.00003 271.152);
+  font-weight: bold;
 }
 
 /* svg style  */

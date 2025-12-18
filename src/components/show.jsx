@@ -58,7 +58,7 @@ const Show = () => {
               style={{ transform: `translateY(${yOffset}px)`, flex: 1, maxWidth: '280px', minWidth: 0 }}
             >
               <img
-                src={`/images/img${num}.jpg`}
+                src={`./assets/img${num}.jpg`}
                 alt={`Gallery image ${num}`}
                 style={{
                   width: '100%',
@@ -110,16 +110,16 @@ const Show = () => {
           />
         </defs>
         <g className="parallax1">
-          <use xlinkHref="#gentle-wave" x="50" y="3" fill="#f461c1" />
+          <use xlinkHref="#gentle-wave" x="50" y="3" fill="rgb(130 172 171)" />
         </g>
         <g className="parallax2">
-          <use xlinkHref="#gentle-wave" x="50" y="0" fill="#4579e2" />
+          <use xlinkHref="#gentle-wave" x="50" y="0" fill="rgb(156 207 206)" />
         </g>
         <g className="parallax3">
-          <use xlinkHref="#gentle-wave" x="50" y="9" fill="#3461c1" />
+          <use xlinkHref="#gentle-wave" x="50" y="9" fill="rgb(146 243 241)" />
         </g>
         <g className="parallax4">
-          <use xlinkHref="#gentle-wave" x="50" y="6" fill="#fff" />
+          <use xlinkHref="#gentle-wave" x="50" y="6" fill="white" />
         </g>
       </svg>
     </div>

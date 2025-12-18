@@ -57,11 +57,7 @@ const Title = () => {
         className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold flex "
         ref={titleRef}
       >
-        {text.split('').map((letter, index) => (
-          <span key={index} className="inline-block">
-            {letter}
-          </span>
-        ))}
+          <img src="./assets/Logo.png" alt="Logo" />
       </h1>
 
       {/* Main paragraph */}
@@ -76,6 +72,7 @@ const Title = () => {
           tracking-wide
           text-black
           opacity-0
+          BP
         "
       >
         Boulangerie & Pâtisserie

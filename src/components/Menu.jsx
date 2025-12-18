@@ -5,13 +5,13 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 const products = {
   jus: [
-    { id: 1, name: 'Milkshake chocolat', price: '700 DA', img: './images/img1.jpg' },
-    { id: 2, name: 'Milkshake fraise', price: '700DA', img: './images/img2.jpg' },
+    { id: 1, name: 'Milkshake chocolat', price: '700 DA', img: './assets/img1.jpg' },
+    { id: 2, name: 'Milkshake fraise', price: '700DA', img: './assets/img2.jpg' },
   ],
   milkshake: [
-    { id: 3, name: 'Piña colada ', price: '800 DA', img: './images/img3.jpg' },
-    { id: 4, name: 'Paradise reef', price: '800 DA', img: './images/img4.jpg' },
-    { id: 5, name: 'Mojito classique', price: '700 DA', img: './images/img5.jpg' },
+    { id: 3, name: 'Piña colada', price: '800 DA', img: './assets/img3.jpg' },
+    { id: 4, name: 'Paradise reef', price: '800 DA', img: './assets/img4.jpg' },
+    { id: 5, name: 'Mojito classique', price: '700 DA', img: './assets/img5.jpg' },
   ],
 }
 
@@ -64,19 +64,23 @@ const Menu = () => {
       <div className="flex justify-center gap-4 mb-8">
         <button
           className={`px-4 py-2 rounded-lg font-medium transition-all ${
-            category === 'jus' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
+            category === 'jus'
+              ? 'bg-[rgb(130,172,171)] text-white'
+              : 'bg-gray-200 text-gray-700'
           }`}
           onClick={() => handleSwitch('jus')}
-        > Les milkshakes
-          
+        >
+          Les milkshakes
         </button>
         <button
           className={`px-4 py-2 rounded-lg font-medium transition-all ${
-            category === 'milkshake' ? 'bg-pink-500 text-white' : 'bg-gray-200 text-gray-700'
+            category === 'milkshake'
+              ? 'bg-[rgb(130,172,171)] text-white'
+              : 'bg-gray-200 text-gray-700'
           }`}
           onClick={() => handleSwitch('milkshake')}
         >
-         Les jus
+          Les jus
         </button>
       </div>
 
