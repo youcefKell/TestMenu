@@ -116,7 +116,7 @@ const Show = () => {
           <use xlinkHref="#gentle-wave" x="50" y="0" fill="rgb(156 207 206)" />
         </g>
         <g className="parallax3">
-          <use xlinkHref="#gentle-wave" x="50" y="9" fill="rgb(146 243 241)" />
+          <use xlinkHref="#gentle-wave" x="50" y="9" fill="oklch(0.78 0.05 194.41)" />
         </g>
         <g className="parallax4">
           <use xlinkHref="#gentle-wave" x="50" y="6" fill="white" />
