@@ -39,12 +39,12 @@ const Jusfrais = () => {
         
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="./public/assets/frais1.png" 
+            src="/assets/frais1.png" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="./public/assets/frais2.png" 
+            src="/assets/frais2.png" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

@@ -38,12 +38,12 @@ const Frappee = () => {
 
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="./public/assets/frappe1.webp" 
+            src="/assets/frappe1.webp" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="./public/assets/frappe2.webp" 
+            src="/assets/frappe2.webp" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

@@ -39,12 +39,12 @@ const MocktailsMenu = () => {
         {/* Images */}
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="./public/assets/img4.jpg" 
+            src="/assets/img4.jpg" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="./public/assets/img5.jpg" 
+            src="/assets/img5.jpg" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

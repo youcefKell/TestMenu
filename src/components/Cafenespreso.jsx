@@ -42,12 +42,12 @@ const Cafenespreso = () => {
         {/* Images */}
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="./public/assets/nes.avif" 
+            src="/assets/nes.avif" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="./public/assets/nes2.avif" 
+            src="/assets/nes2.avif" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

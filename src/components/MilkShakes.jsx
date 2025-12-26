@@ -40,12 +40,12 @@ const MilkShakes = () => {
         {/* Images */}
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="./public/assets/img1.jpg" 
+            src="/assets/img1.jpg" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="./public/assets/img2.jpg" 
+            src="/assets/img2.jpg" 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
