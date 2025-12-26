@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
 
@@ -8,6 +8,7 @@
 body,html{
 font-family: "Libre Bodoni", serif;
    text-shadow: 0.6px 0.4px 1px rgb(87, 86, 86); 
+   scroll-behavior: smooth;
 }
 
 .BP{
@@ -87,6 +88,8 @@ font-family: "Libre Bodoni", serif;
   }
 }
 
-.mm {
-   font-family: "Shadows Into Light", cursive;
+.Test{
+   font-family: "Permanent Marker", cursive;
+   text-shadow: 1px 1px 1.5px rgb(56, 56, 56);
 }
+
