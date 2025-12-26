@@ -18,69 +18,7 @@ const BoissonChaud = () => {
      { name: 'Eau',  price: '150 DA' },
   ]
 
-  useEffect(() => {
-    const loadGsap = async () => {
-      const script = document.createElement('script')
-      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js'
-      script.async = true
-      
-      script.onload = () => {
-        const gsap = window.gsap
-        const tl = gsap.timeline()
 
-        // Animation des lignes décoratives
-        tl.from('.decorative-line', {
-          duration: 0.8,
-          scaleX: 0,
-          opacity: 0,
-          stagger: 0.15,
-          ease: 'power2.out'
-        })
-
-        // Animation du titre
-        tl.from(titleRef.current, {
-          duration: 1,
-          scale: 0.5,
-          rotation: -5,
-          opacity: 0,
-          ease: 'back.out(1.7)'
-        }, '-=0.4')
-
-        // Animation des images
-        tl.from(imagesRef.current.children, {
-          duration: 0.8,
-          scale: 0,
-          rotation: 180,
-          opacity: 0,
-          stagger: 0.2,
-          ease: 'back.out(1.7)'
-        }, '-=0.3')
-
-        // Animation des items
-        tl.from(itemsRef.current, {
-          duration: 0.6,
-          x: -50,
-          opacity: 0,
-          stagger: 0.1,
-          ease: 'power2.out'
-        }, '-=0.4')
-
-        // Flottement des images
-        gsap.to(imagesRef.current.children, {
-          y: -10,
-          duration: 2,
-          stagger: 0.3,
-          repeat: -1,
-          yoyo: true,
-          ease: 'sine.inOut'
-        })
-      }
-      
-      document.body.appendChild(script)
-    }
-
-    loadGsap()
-  }, [])
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-10 bg-gradient-to-br from-[#fdfcf6] to-[#f5f3e8] rounded-2xl">

@@ -13,52 +13,7 @@ const Jusfrais = () => {
     
   ]
 
-  useEffect(() => {
-    const loadGsap = async () => {
-      const script = document.createElement('script')
-      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js'
-      script.async = true
-      
-      script.onload = () => {
-        const gsap = window.gsap
-        const tl = gsap.timeline()
-
-        // Animation des lignes décoratives
-        tl.from('.decorative-line', {
-          duration: 0.8,
-          scaleX: 0,
-          opacity: 0,
-          stagger: 0.15,
-          ease: 'power2.out'
-        })
-
-        // Animation du titre
-        tl.from(titleRef.current, {
-          duration: 1,
-          scale: 0.5,
-          rotation: -5,
-          opacity: 0,
-          ease: 'back.out(1.7)'
-        }, '-=0.4')
-
-     
-        // Animation des items
-        tl.from(itemsRef.current, {
-          duration: 0.6,
-          x: -50,
-          opacity: 0,
-          stagger: 0.1,
-          ease: 'power2.out'
-        }, '-=0.4')
-
-       
-      }
-      
-      document.body.appendChild(script)
-    }
-
-    loadGsap()
-  }, [])
+  
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-10">
