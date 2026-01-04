@@ -44,12 +44,12 @@ const BoissonChaud = () => {
         {/* Images */}
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="/assets/chaud1.png" 
+            src={`${import.meta.env.BASE_URL}assets/chaud1.png`}
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="/assets/chaud2.png" 
+           src={`${import.meta.env.BASE_URL}assets/chaud2.png`}
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

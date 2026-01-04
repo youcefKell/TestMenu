@@ -7,10 +7,10 @@ const MilkShakes = () => {
 
   const mocktails = [
     { name: 'Milkshake vanille',  price: '900 DA' },
-    { name: 'Milkshake farise',  price: '850 DA' },
+    { name: 'Milkshake farise',  price: '900 DA' },
     { name: 'Milkshake pistache', price: '900 DA' },
     { name: 'Milkshake chocolat',  price: '900 DA' },
-    { name: 'Milkshake speculos',  price: '900DA' },
+    { name: 'Milkshake speculos',  price: '900 DA' },
      { name: 'Milkshake nutella-banane',  price: '....900 DA' },
   ]
 
@@ -40,12 +40,12 @@ const MilkShakes = () => {
         {/* Images */}
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="/assets/img1.jpg" 
+            src={`${import.meta.env.BASE_URL}assets/img1.jpg`}
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="/assets/img2.jpg" 
+            src={`${import.meta.env.BASE_URL}assets/img2.jpg`} 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

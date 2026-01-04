@@ -16,7 +16,7 @@ const Jusfrais = () => {
   
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-10">
+    <div className="max-w-3xl mx-auto px-6 py-10 bg-gradient-to-br from-[#fdfcf6] to-[#f5f3e8] rounded-2xl">
       
       {/* Title Section */}
       <div className="text-center mb-8">
@@ -39,12 +39,12 @@ const Jusfrais = () => {
         
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="/assets/frais1.png" 
+            src={`${import.meta.env.BASE_URL}assets/frais1.png`}
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="/assets/frais2.png" 
+            src={`${import.meta.env.BASE_URL}assets/frais2.png`} 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

@@ -16,7 +16,7 @@ const Smooth = () => {
 
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-10  bg-gradient-to-br from-[#fdfcf6] to-[#f5f3e8] rounded-2xl">
+    <div className="max-w-3xl mx-auto px-6 py-10  ">
       
       {/* Title Section */}
       <div className="text-center mb-8">
@@ -38,12 +38,12 @@ const Smooth = () => {
 
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="./public/assets/smooth1.png" 
+            src={`${import.meta.env.BASE_URL}assets/smooth1.png`}
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="./public/assets/smooth2.avif" 
+            src={`${import.meta.env.BASE_URL}assets/smooth2.avif`} 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />

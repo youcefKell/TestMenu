@@ -9,7 +9,7 @@ const Thanks = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center py-20 text-center">
+    <div className="flex flex-col items-center justify-center py-20 text-center bg-gradient-to-br from-[#fdfcf6] to-[#f5f3e8] rounded-2xl">
       <h1
         className="text-3xl font-bold mb-6"
         style={{ color: 'rgb(94 139 138)' }}

@@ -12,7 +12,7 @@ const Detox = () => {
 
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-10 bg-gradient-to-br from-[#fdfcf6] to-[#f5f3e8] rounded-2xl">
+    <div className="max-w-3xl mx-auto px-6 py-10 ">
       
       {/* Title Section */}
       <div className="text-center mb-8">

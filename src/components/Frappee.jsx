@@ -15,7 +15,7 @@ const Frappee = () => {
 
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-10  bg-gradient-to-br ">
+    <div className="max-w-3xl mx-auto px-6 py-10  bg-gradient-to-br bg-gradient-to-br from-[#fdfcf6] to-[#f5f3e8] rounded-2xl ">
       
       {/* Title Section */}
       <div className="text-center mb-8">
@@ -38,12 +38,12 @@ const Frappee = () => {
 
         <div ref={imagesRef} className="flex justify-center gap-4 mb-4">
           <img 
-            src="/assets/frappe1.webp" 
+           src={`${import.meta.env.BASE_URL}assets/frappe1.webp`}
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
           <img 
-            src="/assets/frappe2.webp" 
+            src={`${import.meta.env.BASE_URL}assets/frappe2.webp`} 
             alt="Mocktail decoration" 
             className="w-24 h-24 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
